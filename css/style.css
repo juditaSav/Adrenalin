@@ -1,16 +1,18 @@
 body{
-    background-image: url("../pictures/jjjj.jpg");
+    background: url("../pictures/rr.jpg") no-repeat center center;
+    background-size: cover;
 }
+
 img {
     width: 300px;
     display: block;
     margin: 0 auto;
 }
 #page {
-    width: 500px;
+    width: 650px;
     margin: 0 auto;
     background-color: white;
-    padding: 6px;
+    padding: 12px;
     font-size: 16px;
 }
 #page img {
