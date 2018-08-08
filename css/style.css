@@ -1,5 +1,7 @@
 body{
     background-color: lightgray;
+    background-image: url("../pictures/jjjj.jpg");
+
 }
 img {
     width:300px;
@@ -31,5 +33,11 @@ h1 {
 }
 h3 {
     margin: 12px 0 12px 0;
+    text-align: center;
+}
+a {
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 30px;
     text-align: center;
 }
