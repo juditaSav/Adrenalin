@@ -11,19 +11,26 @@ img {
     margin: 0 auto;
     background-color: white;
     padding: 6px;
-    font-size: 28px;
+    font-size: 16px;
 }
 .menu {
     list-style-type: none;
     background-color: black;
     padding: 6px;
-    font-size: 20px;
 }
 .menu li {
     display: inline;
     padding: 6px;
     color: white;
-    font-size: 30px;
+    font-size: 19px;
+}
+.menu li:hover {
+    background-color: darkseagreen;
+}
+.menu a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
 }
 h1 {
     margin: 12px 0 12px 0;
@@ -36,12 +43,6 @@ h2 {
 }
 h3 {
     margin: 12px 0 12px 0;
-    text-align: center;
-}
-a {
-    color:whitesmoke;
-    text-decoration: none;
-    font-size: 35px;
     text-align: center;
 }
 b {
