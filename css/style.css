@@ -32,7 +32,6 @@ h1 {
 h2 {
     margin: 12px 0 12px 0;
     text-align: center;
-    text-color: black;
 }
 h3 {
     margin: 12px 0 12px 0;
@@ -46,11 +45,6 @@ a {
 }
 b {
     color:blue;
-    text-align: center;
-    font-size: 30px;
-}
-c {
-    color:black;
     text-align: center;
     font-size: 30px;
 }
