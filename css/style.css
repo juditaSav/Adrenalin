@@ -10,6 +10,9 @@ body{
     font-family: Catamaran-Thin;
     src: url("../fonts/Catamaran-Thin.ttf");
 }
+a {
+    font-family: Catamaran-Thin;
+}
 img {
     width: 300px;
     display: block;
@@ -44,16 +47,17 @@ img {
     text-decoration: none;
     text-align: center;
 }
-h1 {
+h1, h2, h3 {
     margin: 12px 0 12px 0;
     text-align: center;
     font-family: Centarell-Bold;
-    font-size: 50px;
+}
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
 }
 h2 {
-    margin: 12px 0 12px 0;
-    text-align: center;
-    font-family: Centarell-Bold;
+    font-size: 35px;
 }
 h2 a {
      color: black;
@@ -61,8 +65,8 @@ h2 a {
      text-align: center;
      font-size: 30px;
 }
-a {
-    font-family: Catamaran-Thin;
+h2 a:hover {
+    text-decoration: underline;
 }
 b {
     color:blue;
