@@ -93,3 +93,17 @@ footer a {
     font-family: Catamaran-Thin;
 }
 
+@media(max-width: 600px) {
+    #page {
+        width: 100%;
+        padding: 8px;
+        font-size: 16px;
+    }
+    body {
+        margin: 0;
+    }
+    h2 {
+        text-align: left;
+    }
+}
+
