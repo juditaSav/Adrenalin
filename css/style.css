@@ -6,6 +6,10 @@ body{
     font-family: Centarell-Bold;
    src: url("../fonts/Cantarell-Bold.ttf");
 }
+@font-face {
+    font-family: Catamaran-Thin;
+    src: url("../fonts/Catamaran-Thin.ttf");
+}
 img {
     width: 300px;
     display: block;
@@ -61,6 +65,9 @@ b {
     color:blue;
     text-align: center;
     font-size: 20px;
+}
+p {
+    font-family: Catamaran-Thin;
 }
 
 footer {
