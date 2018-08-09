@@ -59,8 +59,13 @@ b {
 
 footer {
     margin: 0 auto;
-    padding: 20px;
     background-color: darkseagreen;
     width: 100%;
+    padding: 12px 0;
+}
+footer a {
+    padding: 0 6px;
+    text-decoration: none;
+    text-decoration-color: black;
 }
 
