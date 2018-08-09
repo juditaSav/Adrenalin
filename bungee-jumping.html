@@ -31,15 +31,57 @@
         vás pád přemůže a vymrští vás zpět. Zažíváte stav beztíže – ano, ten samý, co zažívají jen piloti a kosmonauti.
         Když vás stáhnou zpět na pevnou zem, máte na obličeji široký úsměv. Je vám fajn a chcete ještě!</p>
     <h1>pouze za 1 999kč</h1>
-    <form>
-        Jmeno:<br>
-        <input type="text" name="Jmeno"><br>
-        Prijmeni:<br>
-        <input type="text" name="Prijmeni"><br>
-        Telefon:<br>
-        <input type="text" name="Telefon"><br><br>
-        <input type="submit" value="Objednat">
-    </form>
+    <div class="container">
+        <form>
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">Jméno</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Jméno">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Příjmení</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Příjmení">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="phone">Telefon</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="phone" name="Telefon" placeholder="Telefon">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="country">Kategorie</label>
+                </div>
+                <div class="col-75">
+                    <select id="country" name="country">
+                        <option>Z jeřábu</option>
+                        <option>Ze skály</option>
+                        <option>Z mostu</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="Poznámka">Poznámka</label>
+                </div>
+                <div class="col-75">
+                    <textarea id="Poznámka" name="Poznámka" placeholder="Vaše poznámka" style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input type="submit" value="Odeslat">
+            </div>
+        </form>
+    </div>
     <footer>
         <a href="http://twitter.com" target="_blank">twitter</a> |
         <a href="http://facebook.com" target="_blank">facebook</a> |
