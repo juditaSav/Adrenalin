@@ -12,7 +12,7 @@ img {
     width: 650px;
     margin: 0 auto;
     background-color: white;
-    padding: 12px;
+    padding: 16px;
     font-size: 16px;
 }
 #page img {
@@ -46,7 +46,7 @@ h2 {
     text-align: center;
 }
 h2 a {
-     color: blue;
+     color: black;
      text-decoration: none;
      text-align: center;
      font-size: 30px;
