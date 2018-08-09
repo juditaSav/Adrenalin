@@ -91,6 +91,11 @@ footer {
     padding: 12px 0;
 }
 footer a {
+      padding: 0 6px;
+      text-decoration: none;
+      color: black;
+  }
+footer p {
     padding: 0 6px;
     text-decoration: none;
     color: black;
