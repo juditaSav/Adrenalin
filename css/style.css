@@ -2,7 +2,10 @@ body{
     background: url("../pictures/rr.jpg") no-repeat center center;
     background-size: cover;
 }
-
+@font-face {
+    font-family: Centarell-Bold;
+   src: url("../fonts/Cantarell-Bold.ttf");
+}
 img {
     width: 300px;
     display: block;
@@ -44,6 +47,7 @@ h1 {
 h2 {
     margin: 12px 0 12px 0;
     text-align: center;
+    font-family: Centarell-Bold;
 }
 h2 a {
      color: black;
